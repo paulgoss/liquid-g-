@@ -1,3 +1,5 @@
+@-moz-document domain('plus.google.com') {
+
 @font-face {
   font-family: 'PT Sans';
   font-style: italic;
@@ -27,28 +29,28 @@ body {
     font-family: 'PT Sans', 'museo sans', calibri, 'helvetica neue', helvetica, arial, sans-serif !important;
 }
 
-.a-A {
-width: 100%;
+#content .a-A {
+width: 100% !important;
 }
 
-.a-p-M-T-gi-xc  {
-width: 72%;
+#content .a-p-M-T-gi-xc  {
+width: 72%  !important;
 }
 
-.a-f-n-A  {
-width: auto;
+#content .a-f-n-A  {
+width: auto !important;
 }
 
-.a-f-p  {
-width: auto;
+#content .a-f-p  {
+width: auto !important;
 }
 
 #contentPane.a-p-M-T-gi-xc [id^=update-],
 .a-f-i.a-f-oi-Ai {
-float: left;
-clear: none;
-border-top: 1px solid #999;
-width: 46%;
+float: left !important;
+clear: none !important;
+border-top: 1px solid #999 !important;
+width: 46% !important;
 }
 #contentPane.a-p-M-T-gi-xc [id^=update-]:nth-child(n+1) {
 margin-right:2px;
@@ -165,6 +167,8 @@ max-width: 100%;
 
 #contentPane.a-p-M-T-gi-xc .a-p-M-T-gi-xc  {
 width: 55%;
+}
+
 }
 
 }
