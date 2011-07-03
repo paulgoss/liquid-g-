@@ -1,5 +1,8 @@
+@import url('http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic&v1');
+
+
 body {
-    font-family: 'museo sans';
+    font-family: 'PT Sans', 'museo sans', calibri, 'helvetica neue', helvetica, arial, sans-serif !important;
 }
 
 .a-A {
